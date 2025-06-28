@@ -50,4 +50,15 @@ Model is saved using:
 import joblib
 joblib.dump(xgb,'model.joblib')
 joblib.dump(tfidf_review,'tfidf.joblib')
+```
+---
+## 📦 DEPENDENCIES
 
+Python 3.10+
+`xgboost`
+`scikit-learn`
+`nltk`
+`optuna`
+`scipy, numpy, pandas, textblob`
+
+---
