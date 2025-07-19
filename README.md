@@ -1,4 +1,4 @@
-# Review Rating Prediction using XGBoost
+# Review Rating Prediction 
 
 This project is focused on **predicting review sentiment** as a 3-class problem using a combination of **text features (TF-IDF)** and **custom-engineered metadata features**, powered by **XGBoost**.
 
