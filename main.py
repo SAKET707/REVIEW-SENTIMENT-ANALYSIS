@@ -10,5 +10,5 @@ if st.button("Predict"):
         st.error("Review cannot be empty!")
     else:
         pred = predict(review)
-        st.succes(pred-1)
+        st.success(pred-1)
         st.success(f"Predicted Sentiment: {sentiment_map[pred]}")
