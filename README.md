@@ -10,10 +10,11 @@ Classify customer reviews into:
 
 - **-1** → Negative   
 - **0** → Neutral   
-- **1** → Positive 
-
-<img width="550" height="303" alt="example" src="https://github.com/user-attachments/assets/ee7cf1ce-5284-4643-b28f-aefbf5bc05c8" />
-<img width="550" height="286" alt="example2" src="https://github.com/user-attachments/assets/3fd72d5d-38e7-4eb2-b4a8-59b4708d74b0" />
+- **1** → Positive
+- 
+|           |           |
+|-----------|-----------|
+| <img src="https://github.com/user-attachments/assets/ee7cf1ce-5284-4643-b28f-aefbf5bc05c8" width="400"/> | <img src="https://github.com/user-attachments/assets/3fd72d5d-38e7-4eb2-b4a8-59b4708d74b0" width="400"/> |
 
 ---
 
