@@ -4,13 +4,15 @@
 - STREAMLIT URL : https://review-sentiment-analysis-by-saket.streamlit.app/
 ---
 
-## 🧠 Objective
+## 🧠 Objective And Demo
 
 Classify customer reviews into:
 
 - **-1** → Negative   
 - **0** → Neutral   
 - **1** → Positive 
+
+<img width="1139" height="606" alt="example" src="https://github.com/user-attachments/assets/ee7cf1ce-5284-4643-b28f-aefbf5bc05c8" />
 
 ---
 
