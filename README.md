@@ -4,7 +4,7 @@
 - STREAMLIT URL : https://review-sentiment-analysis-by-saket.streamlit.app/
 ---
 
-## 🧠 Objective And Demo
+##  Objective And Demo
 
 Classify customer reviews into:
 
@@ -18,9 +18,9 @@ Classify customer reviews into:
 
 ---
 
-## ⚙️ Model & Features
+##  Model & Features
 
-### ✅ Text Features
+###  Text Features
 - TF-IDF vectorization (`max_features=2000`)
 - Preprocessing includes:
   - Lowercasing
@@ -28,7 +28,7 @@ Classify customer reviews into:
   - Lemmatization
   - Handling emojis, hashtags, mentions, and punctuations like `!`, `?`
 
-### ✅ Engineered Metadata Features
+###  Engineered Metadata Features
 - `mojibake_freq` — count of mojibake and special characters
 - `has_mojibake` — binary indicator
 - `review_char`, `review_words`, `review_sent` — text statistics
@@ -36,18 +36,18 @@ Classify customer reviews into:
 - `max_word_repeat_ratio` — max single word frequency ratio
 - `sentiment_score`, POS-tag counts
 
-### ✅ Model
+###  Model
 - `XGBClassifier` from the `xgboost` library
 - Achieved **>85% accuracy** on test data 
 
 ---
 
-## 📈 Performance
+##  Performance
 
-- ✅ Accuracy: **~85%**
+-  Accuracy: **~85%**
 ---
 
-## 💾 Saving & Loading
+##  Saving & Loading
 
 Model is saved using:
 ```python
@@ -56,7 +56,7 @@ joblib.dump(xgb,'model.joblib')
 joblib.dump(tfidf_review,'tfidf.joblib')
 ```
 ---
-## 📦 DEPENDENCIES
+##  DEPENDENCIES
 
 Python 3.10+
 `xgboost`
